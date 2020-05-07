@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pares-impares</title>
+</head>
+<body>
+	<% for (var i = 1; i < 51; i++) { %>
+	  <% if (i%2 == 0){ %>
+	    <p><%= i %> Soy par!</p>
+	  <% } %>
+	  <% if (i%2 != 0){ %>
+	    <p><%= i %> Soy impar!</p>
+	  <% } %>
+	<% } %>
+</body>
+</html>
